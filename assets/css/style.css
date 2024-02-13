@@ -46,16 +46,22 @@ header {
 }
 
 .past {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   background-color: #d3d3d3;
   color: white;
 }
 
 .present {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   background-color: #ff6961;
   color: white;
 }
 
 .future {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   background-color: #77dd77;
   color: white;
 }
@@ -71,4 +77,8 @@ header {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.hide {
+  display: none;
 }
