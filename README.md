@@ -2,7 +2,7 @@
 
 ## Description 
 This a fun little codebase to display a workday schedule,
-This app uses the dayjs library and the jquery library,
+This app uses the dayjs library and the bootstrap library,
 using the dayjs library I have set a 9-5 day hourly block,
 then I check is the current hour the same as the ID in the HTML,
 if it is the same set the class to present else its a class of future or past,
@@ -49,7 +49,7 @@ See the license inside my repo for further details of the MIT license.
 
 ## Tests
 
-This webpage has been tested using Git Pages [Click here to visit my live  git page]( https://baxt01.github.io/workDayPlanner/)
+This webpage has been tested using Git Pages [Click here to visit my live  git page]( [https://baxt01.github.io/workDayPlanner/](https://baxt01.github.io/week7-redo/))
 
 
 ## Screenshots
