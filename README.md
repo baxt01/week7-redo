@@ -54,6 +54,5 @@ This webpage has been tested using Git Pages [Click here to visit my live  git p
 
 ## Screenshots
 
- ![My Repo](https://github.com/baxt01/workDayPlanner/blob/main/images/repo.png) 
-  ![working code](https://github.com/baxt01/workDayPlanner/blob/main/images/livecode.png)
-  ![live pages](https://github.com/baxt01/workDayPlanner/blob/main/images/livepages.png) 
+ ![My Repo](https://github.com/baxt01/week7-redo/blob/main/assets/images/repo.png) 
+  ![live pages](https://github.com/baxt01/week7-redo/blob/main/assets/images/livepages.png) 
