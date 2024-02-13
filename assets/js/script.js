@@ -48,3 +48,49 @@ saveBtn.forEach(btn => {
         }, 3000);
     });
 });
+
+// Get the time-block data from localStorage and put it back on the page for 09.
+let div09 = document.getElementById('09');
+let textarea = div09.querySelector('.time-block');
+textarea.value = localStorage.getItem('09');
+
+// Get the time-block data from localStorage and put it back on the page for 09.
+let div10 = document.getElementById('10');
+textarea = div10.querySelector('.time-block');
+textarea.value = localStorage.getItem('10');
+
+// Get the time-block data from localStorage and put it back on the page for 09.
+let div11 = document.getElementById('11');
+textarea = div11.querySelector('.time-block');
+textarea.value = localStorage.getItem('11');
+
+// Get the time-block data from localStorage and put it back on the page for 09.
+let div12 = document.getElementById('12');
+textarea = div12.querySelector('.time-block');
+textarea.value = localStorage.getItem('12');
+
+// Get the time-block data from localStorage and put it back on the page for 09.
+let div13 = document.getElementById('13');
+textarea = div13.querySelector('.time-block');
+textarea.value = localStorage.getItem('13');
+
+// Get the time-block data from localStorage and put it back on the page for 09.
+let div14 = document.getElementById('14');
+textarea = div14.querySelector('.time-block');
+textarea.value = localStorage.getItem('14');
+
+// Get the time-block data from localStorage and put it back on the page for 09.
+let div15 = document.getElementById('15');
+textarea = div15.querySelector('.time-block');
+textarea.value = localStorage.getItem('15');
+
+// Get the time-block data from localStorage and put it back on the page for 09.
+let div16 = document.getElementById('16');
+textarea = div16.querySelector('.time-block');
+textarea.value = localStorage.getItem('16');
+
+// Get the time-block data from localStorage and put it back on the page for 09.
+let div17 = document.getElementById('17');
+textarea = div17.querySelector('.time-block');
+textarea.value = localStorage.getItem('17');
+
