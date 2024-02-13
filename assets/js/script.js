@@ -22,3 +22,29 @@ timeDivs.forEach(timeDiv => {
         timeDiv.classList.add('future');
     }
 })
+
+// Getting the saveBtn's.
+var saveBtn = document.querySelectorAll('.saveBtn');
+
+// Adding an click event listener to the saveBtn's.
+// sorting the time block text and text area text into variable to store to local storage.
+saveBtn.forEach(btn => {
+    btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        // get the user input for the text area.
+        var value = this.parentNode.querySelector('.time-block').value;
+        console.log(value);
+        // get the text of the time slot
+        var getText = btn.parentNode.innerText;
+        console.log(getText);
+        time = getText.slice(0, 2);
+        console.log(time);
+        localStorage.setItem(time, value);
+        var message = document.querySelector('#message')
+        message.classList.remove('hide');
+
+        setTimeout(function () {
+            message.classList.add('hide');
+        }, 3000);
+    });
+});
