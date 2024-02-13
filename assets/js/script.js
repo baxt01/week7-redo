@@ -94,3 +94,11 @@ let div17 = document.getElementById('17');
 textarea = div17.querySelector('.time-block');
 textarea.value = localStorage.getItem('17');
 
+document.getElementById('clearFieldsBtn').addEventListener('click', function () {
+    var textareas = document.querySelectorAll('.time-block');
+    textareas.forEach(textarea => {
+        // Set the value of each textarea to an empty string
+        textarea.value = ''; 
+        localStorage.clear();
+    });
+});
